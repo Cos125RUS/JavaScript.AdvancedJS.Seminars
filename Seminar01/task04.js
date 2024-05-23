@@ -15,4 +15,4 @@ console.log(lessons);
 console.log(students);
 
 console.log(`Преподаватель по Математике: ${lessons.get("Математика")}`);
-console.log(`Уроки Иванова: ${Array.from(students.get("Иванов"))}`); 
+console.log(`Уроки Иванова: ${[...students.get("Иванов")]}`); 
